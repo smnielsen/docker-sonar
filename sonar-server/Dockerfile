@@ -1,5 +1,5 @@
-from dockerfile/java
-maintainer Tiago Pires, tandrepires@gmail.com
+FROM dockerfile/java
+maintainer Simon Nielsen
 
 RUN echo "deb http://downloads.sourceforge.net/project/sonar-pkg/deb binary/" >> /etc/apt/sources.list
 RUN apt-get update && apt-get upgrade -y --force-yes
